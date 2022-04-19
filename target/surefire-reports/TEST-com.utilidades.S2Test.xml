@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="4" name="com.utilidades.S2Test" time="0.04" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.12+7"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\verog\OneDrive - Consejería de educación y deporte Andalucía\DAW\Entornos de desarrollo\T3\T3. Tarea Presencial 3.3\TP03"/>
+    <property name="java.vm.vendor" value="Eclipse Foundation"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\verog\OneDrive - Consejería de educación y deporte Andalucía\DAW\Entornos de desarrollo\T3\T3. Tarea Presencial 3.3\TP03"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.12+7"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\verog\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-12.0\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\NetBeans-12.0\netbeans\java\maven\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\wamp64\bin\mysql\mysql8.0.21\bin;C:\Users\verog\Desktop\AutoFirma\AutoFirma;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\verog\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java;;C:\Users\verog\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="maven.conf" value="C:\Program Files\NetBeans-12.0\netbeans\java\maven\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\NetBeans-12.0\netbeans\java\maven\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\verog"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="verog"/>
+    <property name="java.class.path" value="C:\Program Files\NetBeans-12.0\netbeans\java\maven\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=C:\Program Files\NetBeans-12.0\netbeans\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 test"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.12"/>
+    <property name="java.vendor" value="Eclipse Foundation"/>
+    <property name="maven.home" value="C:\Program Files\NetBeans-12.0\netbeans\java\maven\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Temurin-11.0.12+7"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.utilidades.S2Test" name="com.utilidades.S2Test.testMayor" time="0.024">
+    <failure message="Multiple Failures (4 failures)
+	java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	org.opentest4j.AssertionFailedError: Mayor 5, 4, 3: 5 ==&gt; expected: &lt;5&gt; but was: &lt;3&gt;
+	org.opentest4j.AssertionFailedError: Mayor -10 -4, -1, -10: -1 ==&gt; expected: &lt;-1&gt; but was: &lt;-10&gt;
+	org.opentest4j.AssertionFailedError: Mayor 4, -10, 0, 30, 11: 30 ==&gt; expected: &lt;30&gt; but was: &lt;-10&gt;" type="org.opentest4j.MultipleFailuresError">org.opentest4j.MultipleFailuresError: Multiple Failures (4 failures)
+	java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	org.opentest4j.AssertionFailedError: Mayor 5, 4, 3: 5 ==&gt; expected: &lt;5&gt; but was: &lt;3&gt;
+	org.opentest4j.AssertionFailedError: Mayor -10 -4, -1, -10: -1 ==&gt; expected: &lt;-1&gt; but was: &lt;-10&gt;
+	org.opentest4j.AssertionFailedError: Mayor 4, -10, 0, 30, 11: 30 ==&gt; expected: &lt;30&gt; but was: &lt;-10&gt;
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:80)
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:44)
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:38)
+	at org.junit.jupiter.api.Assertions.assertAll(Assertions.java:2911)
+	at com.utilidades.S2Test.testMayor(S2Test.java:77)
+</failure>
+  </testcase>
+  <testcase classname="com.utilidades.S2Test" name="com.utilidades.S2Test.testDiasDelMes" time="0">
+    <failure message="Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: mes 11: 30 días ==&gt; expected: &lt;30&gt; but was: &lt;-1&gt;" type="org.opentest4j.MultipleFailuresError">org.opentest4j.MultipleFailuresError: Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: mes 11: 30 días ==&gt; expected: &lt;30&gt; but was: &lt;-1&gt;
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:80)
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:44)
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:38)
+	at org.junit.jupiter.api.Assertions.assertAll(Assertions.java:2911)
+	at com.utilidades.S2Test.testDiasDelMes(S2Test.java:36)
+</failure>
+  </testcase>
+  <testcase classname="com.utilidades.S2Test" name="com.utilidades.S2Test.testMedia" time="0.016">
+    <failure message="Multiple Failures (4 failures)
+	org.opentest4j.AssertionFailedError: Media 5: 5 ==&gt; expected: &lt;5.0&gt; but was: &lt;0.0&gt;
+	org.opentest4j.AssertionFailedError: Media 5, 4, 3: 4 ==&gt; expected: &lt;4.0&gt; but was: &lt;2.3333333&gt;
+	org.opentest4j.AssertionFailedError: Media -1 -4, -1, -10: -4 ==&gt; expected: &lt;-4.0&gt; but was: &lt;-3.75&gt;
+	org.opentest4j.AssertionFailedError: Media 4.5, -10, -0.5, 30, 11.5: 7.1 ==&gt; expected: &lt;7.1&gt; but was: &lt;6.2&gt;" type="org.opentest4j.MultipleFailuresError">org.opentest4j.MultipleFailuresError: Multiple Failures (4 failures)
+	org.opentest4j.AssertionFailedError: Media 5: 5 ==&gt; expected: &lt;5.0&gt; but was: &lt;0.0&gt;
+	org.opentest4j.AssertionFailedError: Media 5, 4, 3: 4 ==&gt; expected: &lt;4.0&gt; but was: &lt;2.3333333&gt;
+	org.opentest4j.AssertionFailedError: Media -1 -4, -1, -10: -4 ==&gt; expected: &lt;-4.0&gt; but was: &lt;-3.75&gt;
+	org.opentest4j.AssertionFailedError: Media 4.5, -10, -0.5, 30, 11.5: 7.1 ==&gt; expected: &lt;7.1&gt; but was: &lt;6.2&gt;
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:80)
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:44)
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:38)
+	at org.junit.jupiter.api.Assertions.assertAll(Assertions.java:2911)
+	at com.utilidades.S2Test.testMedia(S2Test.java:61)
+</failure>
+  </testcase>
+  <testcase classname="com.utilidades.S2Test" name="com.utilidades.S2Test.testMesDelAnio" time="0">
+    <failure message="Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: mes 12: diciembre ==&gt; expected: &lt;diciembre&gt; but was: &lt;valor incorrecto&gt;" type="org.opentest4j.MultipleFailuresError">org.opentest4j.MultipleFailuresError: Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: mes 12: diciembre ==&gt; expected: &lt;diciembre&gt; but was: &lt;valor incorrecto&gt;
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:80)
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:44)
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:38)
+	at org.junit.jupiter.api.Assertions.assertAll(Assertions.java:2911)
+	at com.utilidades.S2Test.testMesDelAnio(S2Test.java:18)
+</failure>
+  </testcase>
+</testsuite>

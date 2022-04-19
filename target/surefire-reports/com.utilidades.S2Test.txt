@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: com.utilidades.S2Test
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec <<< FAILURE!
+com.utilidades.S2Test.testMayor()  Time elapsed: 0.024 sec  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: Multiple Failures (4 failures)
+	java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	org.opentest4j.AssertionFailedError: Mayor 5, 4, 3: 5 ==> expected: <5> but was: <3>
+	org.opentest4j.AssertionFailedError: Mayor -10 -4, -1, -10: -1 ==> expected: <-1> but was: <-10>
+	org.opentest4j.AssertionFailedError: Mayor 4, -10, 0, 30, 11: 30 ==> expected: <30> but was: <-10>
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:80)
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:44)
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:38)
+	at org.junit.jupiter.api.Assertions.assertAll(Assertions.java:2911)
+	at com.utilidades.S2Test.testMayor(S2Test.java:77)
+
+com.utilidades.S2Test.testDiasDelMes()  Time elapsed: 0 sec  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: mes 11: 30 días ==> expected: <30> but was: <-1>
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:80)
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:44)
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:38)
+	at org.junit.jupiter.api.Assertions.assertAll(Assertions.java:2911)
+	at com.utilidades.S2Test.testDiasDelMes(S2Test.java:36)
+
+com.utilidades.S2Test.testMedia()  Time elapsed: 0.016 sec  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: Multiple Failures (4 failures)
+	org.opentest4j.AssertionFailedError: Media 5: 5 ==> expected: <5.0> but was: <0.0>
+	org.opentest4j.AssertionFailedError: Media 5, 4, 3: 4 ==> expected: <4.0> but was: <2.3333333>
+	org.opentest4j.AssertionFailedError: Media -1 -4, -1, -10: -4 ==> expected: <-4.0> but was: <-3.75>
+	org.opentest4j.AssertionFailedError: Media 4.5, -10, -0.5, 30, 11.5: 7.1 ==> expected: <7.1> but was: <6.2>
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:80)
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:44)
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:38)
+	at org.junit.jupiter.api.Assertions.assertAll(Assertions.java:2911)
+	at com.utilidades.S2Test.testMedia(S2Test.java:61)
+
+com.utilidades.S2Test.testMesDelAnio()  Time elapsed: 0 sec  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: mes 12: diciembre ==> expected: <diciembre> but was: <valor incorrecto>
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:80)
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:44)
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:38)
+	at org.junit.jupiter.api.Assertions.assertAll(Assertions.java:2911)
+	at com.utilidades.S2Test.testMesDelAnio(S2Test.java:18)
+
